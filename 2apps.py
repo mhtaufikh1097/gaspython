@@ -9,7 +9,8 @@
 # nilai = 2000
 # b = int(input("berapa jam anda bekerja dalam 1 hari?"))
 
-# hasil = a * nilai * b
+# hasil = float
+# (a * nilai * b)
 # print("penghasilanku adalah", hasil)
 
 

@@ -16,6 +16,7 @@
 
 
                           ###### Matematika module ######
-number = 5.8           
-number = round(number)
-print(number)   ##pembulatan
+# number = 5.8           
+# number = round(number)
+# print(number)   ##pembulatan
+
