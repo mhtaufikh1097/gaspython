@@ -4,14 +4,24 @@
 # hobby = input("Apa Hobimu? ")
 # # sentence = name + " Selamat datang di jawa"
 # print("namaku adalah ",name  + " usiaku " ,age + "Tahun " + " hobiku adalah " ,hobby)
+print("================Penghasilan Pengemis stopan lampu merah===============")
+def jam_ke_menit(jam):
+    try:
+        jam = float(jam)
+        menit = jam * 60
+        return menit
+    except ValueError:
+        return "Input tidak valid. Masukan nilai numerik."
 
-# a = int(input("berapa orang dalam 1 menit? "))
-# nilai = 2000
-# b = int(input("berapa jam anda bekerja dalam 1 hari?"))
+a = int(input("jumlah orang dalam 1 menit =  "))
+nilai = int(input("berapa rupiah dari 1 orang = "))
+input_jam = int(input("berapa jam anda bekerja dalam 1 hari ?"))
 
-# hasil = float
-# (a * nilai * b)
-# print("penghasilanku adalah", hasil)
+hasil_menit = jam_ke_menit(input_jam)
+hasil =  float(a * nilai * hasil_menit)
+print("penghasilanku adalah", hasil)
+
+
 
 
 

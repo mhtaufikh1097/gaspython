@@ -90,9 +90,72 @@
 # print("terimakasih sudah menggunakan aplikasi kami")
 
 
-#============================Pengulanan For
-numbers = [1, 2, 3, 4, 5]
-name = "Taufik setiawan"
+#============================Pengulanan For looping 
+# numbers = [1, 2, 3, 4, 5, 6]
+# name = "Taufik setiawan"
 
-for item in numbers:
-    print(item)
+# for item in range(0, 12, 2): 
+#     print(item )
+
+
+#============================List bisa menampung lebih dari 1 type data
+# names = ["taufik", "jonan", "sikabau", "amelda" ]
+
+# for name in names:
+#     print(f"Nama : {name} ")
+
+
+#============================List method
+# numbers = [5, 6, 7, 8, 1]
+# print(numbers)
+
+# numbers.append(99)
+# print(numbers)
+
+# numbers.insert(2, 100)
+# print(numbers)
+
+# numbers.pop(5) #menghilangkan index
+# print(numbers)
+
+# numbers.remove(5)
+# print(numbers)
+
+# numbers.sort()
+# print(numbers)
+
+#============================Menjumlahkan list
+
+# numbers = [5, 6, 7, 8, 1]
+
+# init_number = 0
+# for number in numbers:
+#   init_number = init_number + number
+
+# print(init_number)
+
+#============================Mencari nilai max
+
+# numbers = [5, 6, 7, 8, 1] //mencari dengan fungtion
+# numbers.sort()
+# max_number = numbers[-1]
+# print(max_number)
+
+# max_number = numbers[0] //mencari dengan manual
+# for number in numbers:
+#   if number > max_number:
+#     max_number = number
+# print(max_number)
+
+#============================Tuple
+# numbers = [5, 3, 1, 2, 4]
+# print(numbers)
+# numbers[0] = 10
+# print(numbers[2]) 
+
+#============================Unpack
+
+
+
+
+    
