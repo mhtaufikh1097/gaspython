@@ -147,15 +147,106 @@
 #     max_number = number
 # print(max_number)
 
-#============================Tuple
+# ============================Tuple
 # numbers = [5, 3, 1, 2, 4]
 # print(numbers)
 # numbers[0] = 10
 # print(numbers[2]) 
 
-#============================Unpack
+# ============================Unpack 
+# number =  [1, 2, 3]
+
+# # x = number[0]
+# # y = number[1]
+# # z = number[2]
+# x, y, z = number
+
+# print(z)
+
+#=============================Dictionory
+#user = {
+ #   "name": "Muhammad Taufik Hidayat",
+  #  "age" : 30,
+   # "is_admin": True
+#}
+
+#name = user["username"]
+#temp = user.get("username", "taufik")
+
+#print("")
+#print(temp)
 
 
+#============================looping piramida kebalik
+# n = 5
 
-
+# for i in range(n, 0, -1):
+#     #mencetak spasi
+#     print(" " * (n - i), end="")
+#     #mencetak bintang
+#     print("*" * (2 * i - 1))
     
+#===========================Looping piramida kebwh
+# n = 5 
+
+# for i in range(1, n +1):
+#     print(" " *(n - i), end="")
+    
+#     print("*" * (2 * i - 1))
+
+# n = 5
+# for i in range(n, 0, -1):
+    
+#     print(" " * (n-i), end="")
+#     print("*" * (2*i-1))
+
+
+
+#===========================if else
+
+
+# nilai = 100
+
+# if nilai >= 90:
+#     print("nilai kamu A" ,nilai)
+# elif nilai >= 70:
+#     print("nilai kamu B")
+# else:
+#     print("maaf anda gagal")
+    
+
+    # grade = 5
+
+# if grade >= 9: 
+#     print("Nilai kamu A")
+# elif grade >=7:
+#     print("Nilai kamu B") 
+# elif grade >=6:
+#     print("nilai kamu C")
+# else:
+#     print("Maaf anda gagal")
+
+#  
+
+# int main() {
+#     int i, j, k, n;
+
+#     // Meminta pengguna untuk memasukkan jumlah baris
+#     printf("Masukkan jumlah baris: ");
+#     scanf("%d", &n);
+
+#     // Loop untuk setiap baris
+#     for (i = 1; i <= n; i++) {
+#         // Loop untuk spasi di awal setiap baris
+#         for (j = i; j < n; j++) {
+#             printf(" ");
+#         }
+#         // Loop untuk mencetak bintang
+#         for (k = 1; k <= (2 * i - 1); k++) {
+#             printf("*");
+#         }
+#         printf("\n"); // Pindah ke baris berikutnya setelah selesai
+#     }
+
+#     return 0;
+# }
