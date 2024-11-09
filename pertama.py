@@ -1,6 +1,10 @@
-welcome_message = "Welcome To Cuypy Games"
+import random
 
-poikpy_position = 2
+welcome_message = "Welcome To Cuypy Games"
+poikpy_position = random.randint(1, 4)
+
+
+
 print("****************************")
 print(f"** {welcome_message}**")
 print("****************************")
@@ -17,11 +21,8 @@ Halo {nama_user}! Coba perhatikan goa dibawah ini
 pilihan_user = int(input("Menurut kamu di goa no brp POIK berada? [1 / 2 / 3 / 4]: "))
 
 
-
-print(f"pilihan kamu adalah {pilihan_user}")
-
 if pilihan_user == poikpy_position:
-    print("Selamat kamu menang Wow!")
+    print(f"Selamat {nama_user} kamu menang! posisi poikpy ada di {poikpy_position} dan pilihanmu adalah goa nomor {pilihan_user}.")
 else:
-    print("kamu kalah poikpy bukan berada disitu")
+    print(f"kamu kalah poikpy bukan berada disitu,tapi ada di goa nomor {poikpy_position}. Sedangkan kamu memilih goa nomor {pilihan_user}")
 
